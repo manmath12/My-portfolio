@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Alegreya", sans-serif;
+  color-scheme: dark;
+  background-color: black;
+}
+
+/* styles.css */
+
+.hover-effect:hover {
+  transform: translate(5px, -5px) rotate(2deg);
+  transition: transform 0.3s ease-in-out;
+}
